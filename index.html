@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Appointment Scheduler</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Appointment Scheduler</h1>
+      <form class="schedulerform">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="description">Description of the Appointment:</label>
+          <textarea id="description" class="form-control" type="text">
+          </textarea>
+        </div>
+        <div class="form-group">
+          <label for="date">Date of Appointment:</label>
+          <input id="date" class="form-control" type="date">
+        </div>
+        <div class="time">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="starttime">Start Time:</label>
+              <input id="starttime" class="form-control" type="time">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="endtime">End Time:</label>
+              <input id="endtime" class="form-control" type="time">
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-outline-danger">Submit!</button>
+      </form>
+    </div>
+  </body>
+  </html>
